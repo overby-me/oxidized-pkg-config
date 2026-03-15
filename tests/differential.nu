@@ -1,6 +1,6 @@
 #!/usr/bin/env nu
 #
-# Differential testing script for pkg-config-rs.
+# Differential testing script for rust-pkg-config.
 #
 # This script compares the output of our `pkgconf` binary against the system
 # `pkg-config` (or `pkgconf`) for a variety of queries. It reports any

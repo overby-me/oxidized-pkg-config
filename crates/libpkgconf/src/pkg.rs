@@ -679,7 +679,7 @@ pub fn builtin_pkg_config(client: &Client) -> Package {
     let mut pkg = Package::new_virtual("pkg-config", crate::PKGCONFIG_COMPAT_VERSION);
     pkg.realname = Some("pkg-config".to_string());
     pkg.description = Some("Package metadata tool (compatibility shim)".to_string());
-    pkg.url = Some("https://tangled.org/overby.me/overby.me/tree/main/pkg-config-rs".to_string());
+    pkg.url = Some("https://tangled.org/overby.me/overby.me/tree/main/rust/pkg-config".to_string());
 
     // Set well-known variables
     pkg.vars
@@ -707,7 +707,7 @@ pub fn builtin_pkgconf(client: &Client) -> Package {
     let mut pkg = Package::new_virtual("pkgconf", crate::VERSION);
     pkg.realname = Some("pkgconf".to_string());
     pkg.description = Some("Package metadata toolkit (Rust implementation)".to_string());
-    pkg.url = Some("https://tangled.org/overby.me/overby.me/tree/main/pkg-config-rs".to_string());
+    pkg.url = Some("https://tangled.org/overby.me/overby.me/tree/main/rust/pkg-config".to_string());
 
     // Same variables as pkg-config
     pkg.vars

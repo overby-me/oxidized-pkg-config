@@ -4,7 +4,7 @@ libdir=${exec_prefix}/lib
 includedir=${prefix}/include
 
 Name: libfoo
-Description: A test library for pkg-config-rs integration tests
+Description: A test library for rust-pkg-config integration tests
 URL: https://example.com/libfoo
 Version: 1.2.3
 Requires: libbar >= 1.0

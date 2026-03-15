@@ -1116,8 +1116,8 @@ fn run(cli: &Cli) -> Result<()> {
 }
 
 fn print_about() {
-    println!("pkgconf (pkg-config-rs) {VERSION}");
-    println!("Copyright (c) 2025 pkg-config-rs authors.");
+    println!("pkgconf (rust-pkg-config) {VERSION}");
+    println!("Copyright (c) 2025 rust-pkg-config authors.");
     println!();
     println!("Permission to use, copy, modify, and/or distribute this software for any");
     println!("purpose with or without fee is hereby granted, provided that the above");
@@ -1127,5 +1127,5 @@ fn print_about() {
     println!("implied. In no event shall the authors be liable for any damages arising");
     println!("from the use of this software.");
     println!();
-    println!("Report bugs at https://tangled.org/overby.me/overby.me/tree/main/pkg-config-rs");
+    println!("Report bugs at https://tangled.org/overby.me/overby.me/tree/main/rust-pkg-config");
 }
